@@ -1,0 +1,38 @@
+{
+  "name": "chatgpt-search-api",
+  "version": "1.0.0",
+  "description": "This project contains the chat gpt integration in node.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "mocha --recursive test --timeout 15000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.valuebound.net:ahmadilyas/chatgpt-search-api.git"
+  },
+  "author": "Valuebound",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.5",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "memcached": "^2.2.2",
+    "memory-cache": "^0.2.0",
+    "moment-timezone": "^0.5.43",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "request": "^2.88.2"
+  }
+}
